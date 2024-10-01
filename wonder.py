@@ -35,7 +35,7 @@ class CosmicJourney:
         self.challenge_sizes = []
         self.challenge_positions = np.empty((0, 2))
         # Humanity progress bar
-        self.progress_bar = self.ax.bar(0, 5, width=0, bottom=95, color='green')[0]Ar
+        self.progress_bar = self.ax.bar(0, 5, width=0, bottom=95, color='green')[0]
         self.ax.text(2, 97, 'Progress', color='white')
 
         self.wonder_text = self.ax.text(50, 5, '', ha='center', color='yellow')
